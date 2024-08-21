@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Phishing</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+            color: #000;
+            text-align: center;
+            height: 100vh;
+            background: url('https://infase.net/wp-content/uploads/2017/11/Fondo-linux.jpg') no-repeat center center/cover;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /*background: rgba(250, 0, 0, 0.5);*/
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 110px;
+            height: 110px;
+        }
+
+        figcaption {
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            font-size: 24px;
+            max-width: 400px;
+            margin: 20px auto 0;
+            text-align: left;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="content">
+        <h1><p><strong>Menú Principal</strong></p></h1>
+        <h3><p><strong>Elige qué ataque deseas utilizar</strong></p></h3>
+
+        <div class="container">
+            <figure>
+                <a href="C:\Users\PC\OneDrive\Desktop\nuevo\templates\x.html">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2250/2250206.png" alt="Phishing Email">
+                </a>
+                <figcaption>Phishing Email</figcaption>
+            </figure>
+            <figure>
+                <a href="C:\Users\PC\OneDrive\Desktop\nuevo\templates\pagina (1).html">
+                    <img src="https://www.auronix.com/hubfs/SMS-2.png" alt="Phishing SMS">
+                </a>
+                <figcaption>Phishing SMS</figcaption>
+            </figure>
+        </div>
+
+        <ul>
+            <li>El navegador con el que estás viendo esta página</li>
+            <li>Una VPN para evitar rastreos no deseados, ya que la página no es "https"</li>
+            <li>El correo o el número de la víctima</li>
+            <li>Malicia</li>
+        </ul>
+    </div>
+</body>
+</html>
